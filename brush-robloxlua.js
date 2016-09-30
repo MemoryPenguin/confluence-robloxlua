@@ -24,7 +24,7 @@ SyntaxHighlighter.brushes.ROBLOXLua = function() {
 			css: 'constants'
 		},
 		{
-			regex: /(0x\d+\.*\d*)|(\d*\.?\d+e\d+)|(\d*\.?\d+)/g,
+			regex: /(0x[\dA-Fa-f]+)|(-?\d*\.?\d+e-?\d+)|(-?\d*\.?\d+)/g,
 			css: 'value'
 		},
 		{
